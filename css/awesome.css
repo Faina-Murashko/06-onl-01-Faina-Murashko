@@ -34,3 +34,48 @@ padding: 15px;
     line-height: 19px;
     color: #86878b;
   }
+
+  .section-awesome-card {
+    display: flex;
+    justify-content: center;
+  }
+  .awesome-card_item {
+    width: 350px;
+  margin: 31px 15px 0px;
+  }
+  .br {
+    width: 70px;
+  height: 70px;
+  border: 1px solid #d98943;
+  border-radius: 50%;
+  margin: 0 auto 30px;
+  display: flex;
+  align-items: center;
+}
+    
+  .awesome-img-lamp{
+    margin: 0 auto;
+  }
+  
+  
+  .awesom-title-designe {
+    margin: 30px auto 16px;
+    width: 189px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #333333;
+  }
+
+  .text-designe {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+  }
