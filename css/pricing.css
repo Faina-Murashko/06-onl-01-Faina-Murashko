@@ -114,3 +114,10 @@ li {
   margin-bottom: 4px;
   
 }
+
+.line__red {
+  margin: 25px auto 30px;
+  border: 1px solid #E72424;
+  width: 64px;
+
+}
