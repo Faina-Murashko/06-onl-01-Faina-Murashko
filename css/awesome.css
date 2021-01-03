@@ -1,13 +1,11 @@
 .awesome {
-padding: 15px;
    margin: 0 auto;
 }
 
-.awesome-title {
+.title {
   width: 410px;
-    height: 40px;
     margin-top: 100px;
-    margin-bottom: 25px;
+   
     margin-left: auto;
     margin-right: auto;
     font-family: 'Raleway';
@@ -19,12 +17,12 @@ padding: 15px;
     
     color: #212121;
 }
-.awesome-line {
+.line {
     margin: 25px auto 30px;
     border-bottom: 2px solid #d98943;
     width: 64px;
 }
-.awesome-text {
+.awesome__text {
     width: 363px;
     margin: 0px auto 36px;
     font-family: 'Open Sans', sans-serif;
@@ -37,18 +35,19 @@ padding: 15px;
 
   .section-awesome-card {
     display: flex;
-    justify-content: center;
+    justify-content: center;  
+    margin-top: 77px;
   }
   .awesome-card_item {
     width: 350px;
-  margin: 31px 15px 0px;
+  margin: 0px 15px 109px;
   }
-  .br {
+  .circle {
     width: 70px;
   height: 70px;
   border: 1px solid #d98943;
   border-radius: 50%;
-  margin: 0 auto 30px;
+  margin: 0 auto ;
   display: flex;
   align-items: center;
 }

@@ -1,0 +1,116 @@
+.pricing {
+  
+  background: #E5E5E5;
+}
+
+.header {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pricing__title{
+  font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+text-transform: uppercase;
+padding-top: 80px;
+color: #212121;
+
+
+}
+.pricing__text {
+  width: 363px;
+  margin: 0px auto 62px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878B;
+}
+
+.pricing__card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row wrap;
+  
+}
+.pricing__item {
+  margin: 0px 15px;
+  width: 33.3%;
+  padding-bottom: 89px;
+  max-width: 340px;
+}
+
+.list{
+  text-align: center;
+  background-color: #ffffff;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  color: #86878b;
+  margin-bottom: 4px;
+}
+.box{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #333333;
+  margin-bottom: 1px;
+}
+
+.price {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 100px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #333333;
+  margin-bottom: 2px;
+}
+
+.block__pricing{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #333333;
+  margin-bottom: 4px;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  background: #FFFFFF;
+}
+.optima__color__box{
+  background-color: #d98943;
+  font-weight: 800;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 4px;
+  
+}

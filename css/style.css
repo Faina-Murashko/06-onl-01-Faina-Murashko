@@ -1,15 +1,20 @@
 @import url('/css/awesome.css');  
+@import url('/css/pricing.css');
 html {
   font-size: 16px;
   min-height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
 }
 
 .container {
-  width: 1140px;
   max-width: 1170px;
   margin: 0px auto;
-  padding: 15px 0 0 0;
-  max-width: 1170px;
-    text-align: center;
-    width: 100%;
+  padding:  0 15px;
+  text-align: center;
+  
 }
