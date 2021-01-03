@@ -117,7 +117,7 @@ li {
 
 .line__red {
   margin: 25px auto 30px;
-  border: 1px solid #E72424;
+  border-bottom: 2px solid #E72424;
   width: 64px;
 
 }
