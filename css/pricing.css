@@ -109,6 +109,9 @@ li {
   
 }
 
+.line__red {
+  margin: 25px auto 30px;
+  border-bottom: 2px solid #E72424;
+  width: 64px;
 
-  
-
+}
