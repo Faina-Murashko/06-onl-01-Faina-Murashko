@@ -1,0 +1,76 @@
+.axure {
+  background: url('/img/background__axure.png');
+  padding-top: 58px;
+  padding-bottom: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.axure::after{
+  content: '';
+  display: block;
+  background: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.axure__title {
+  font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.axure__title::after{
+  content: '';
+  display: block;
+
+  height: 2px;
+  width: 64px;
+  margin: 34px auto;
+  background-color: #ffffff;
+}
+
+.axure__text{
+  
+  font-family: Raleway;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  font-style: normal;
+  margin-bottom: 22px;
+    position: relative;
+    z-index: 1; 
+    margin-bottom: 57px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.axure__button {
+  display: block;
+  position: relative;
+  z-index: 1;
+
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  max-width: 135px;
+  margin: 0 auto;
+}
