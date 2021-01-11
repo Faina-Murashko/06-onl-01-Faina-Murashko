@@ -1,0 +1,102 @@
+
+.customers__title {
+  position: static;
+left: 366px;
+top: 0px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+text-transform: uppercase;
+margin-top: 80px;
+color: #212121;
+
+}
+.customers__text {
+  width: 363px;
+  margin: 0px auto 62px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878B;
+}
+
+.card__item{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
+
+.card {
+  width: 300px;
+  margin-bottom: 45px;
+}
+
+.card__text{
+  font-family: 'OpenSans';
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  font-style: normal;
+  margin-bottom: 22px;
+  color: #86878b;
+  background: #e2e2e2;
+  border-radius: 7px;
+
+  padding: 10px;
+}
+
+.card__text::after {
+  content: '';
+  display: block;
+
+  width: 17px;
+  height: 17px;
+  background: #e2e2e2;
+  transform: rotate(-45deg);
+  margin-left: 39px;
+  position: absolute;
+}
+
+.card_info__manager {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 22px; 
+}
+.customers__photo {
+  width: 70px;
+  height: 70px;
+}
+
+
+.text_info__manager__name {
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+margin-bottom: 12px;
+color: #333333;
+
+}
+.text_info__manager__position {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+  color: #86878b;
+}
