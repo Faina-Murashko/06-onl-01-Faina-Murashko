@@ -71,6 +71,7 @@ color: #212121;
   align-items: center;
   justify-content: space-around;
   padding: 0 22px; 
+  margin-bottom: 119px;
 }
 .customers__photo {
   width: 70px;
