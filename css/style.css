@@ -1,5 +1,17 @@
 @import url('/css/awesome.css');  
 @import url('/css/pricing.css');
+@import url('/css/customers.css');
+@import url('/css/axure.css');
+
+@font-face{
+  font-family: 'Raleway';
+  src: url('/fonts/raleway/Raleway-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/fonts/open_sans/regular.ttf')
+}
 html {
   font-size: 16px;
   min-height: 100%;
@@ -17,4 +29,10 @@ html {
   padding:  0 15px;
   text-align: center;
   
+}
+
+.line__red {
+  margin: 25px auto 30px;
+  border-bottom: 2px solid #E72424;
+  width: 64px;
 }
