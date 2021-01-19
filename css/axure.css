@@ -58,9 +58,7 @@ color: #ffffff;
 
 .axure__button {
   display: block;
-  position: relative;
-  z-index: 1;
-
+text-decoration: none;
   font-family: 'OpenSans';
   font-style: normal;
   font-weight: 600;
@@ -73,4 +71,11 @@ color: #ffffff;
   box-sizing: border-box;
   max-width: 135px;
   margin: 0 auto;
+}
+.axure__button:hover{
+font-size: 15px;
+color: white;
+background-image: url('/img/tmb_67648_6013.png');
+font-family: 'Potta One', 'Raleway';
+border-radius: 20% 0%;
 }
