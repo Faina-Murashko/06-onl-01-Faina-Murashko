@@ -1,0 +1,57 @@
+.navigation {
+  padding: 15px 0px;
+  background-color: #000000;
+  
+}
+
+
+.logo_axit{
+  display: flex;
+  justify-content:space-between;
+  
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.axit{
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+color: #FFFFFF;
+
+}
+.axit::after{
+  content: "IT";
+  color: #EC7979;
+ 
+}
+
+.navigation-click{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+  align-items:center;
+  
+}
+.navi_click{
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+text-decoration: none;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+color: rgba(255, 255, 255, 0.7);
+padding-left: 48px;
+  transition: all 0.5s;
+
+  
+}
+
+.navi_click:hover{
+  color:  #EC7979;
+cursor: pointer;
+}
