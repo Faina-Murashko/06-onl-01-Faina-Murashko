@@ -5,17 +5,125 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Potta+One&family=Raleway&display=swap"
+    rel="stylesheet">
 
   <title>lesson 2
   </title>
 </head>
 
 <body>
+  <section class="navigation">
+    <div class="container">
+      <div class=logo_axit>
+        <h3 class="axit">AX</h3>
+        <div class="nav_navigation">
+          <nav class="navigation-click">
+            <a class="navi_click" href="#Feautures">Feautures</a>
+            <a class="navi_click" href="#Feautures">About</a>
+            <a class="navi_click" href="#Feautures">Pricing</a>
+            <a class="navi_click" href="#Feautures">Reviews</a>
+            <a class="navi_click" href="#Feautures">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="header">
+    <div class="container header__container">
+      <div class="header__text">
+        <div class="header__logo__first">AX<span class="header-logo__last">IT</span></div>
+        <h1 class="header__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+        <h3 class="header__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</h3>
+        <a href="#" class="header__button">Download</a>
+      </div>
+      <form action="#" method="POST" class="header__form">
+        <div class="form__container">
+          <h4 class="form__title_first">
+            Try your <span class="form__title_last"> free </span> trial today
+          </h4>
+          <label for="header_form_name" class="form__label">Name</label>
+          <input type="text" id="header.form.name" class="form__input" />
+          <label for="header_form_email" class="form__label">Email</label>
+          <input type="email" id="header_form_email" class="form__input" />
+          <label for="header_form_password" class="form__label">Password</label>
+          <input type="password" id="header_form_password" class="form__input" />
+        </div>
+        <button class="button_form" type="Submit">Get started</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="social">
+    <div class="container_social">
+      <div class="social_info">
+        <h4 class="social_title">Social Media</h4>
+        <p class="social_subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+          euismod bibendum laoreet.
+        </p>
+      </div>
+
+      <div class="social__icons">
+        <ul class="social_list">
+          <li class="social__items"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          </li>
+          <li class="social__items"><a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="social__items"><a href="#"><i class="fab fa-google-plus-g"></i></a>
+          </li>
+          <li class="social__items"><a href="#"><i class="fab fa-pinterest"></i></a>
+          </li>
+          <li class="social__items"><a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li class="social__items"><a href="#"><i class="fab fa-stumbleupon"></i></a>
+          </li>
+          <li class="social__items"><a href="#"><i class="fas fa-rss"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="feautures">
+    <div class="container_feautures">
+      <div class="information">
+        <div class="features__tabs">
+          <div class="features__first-item tabs-text">
+            <p class="item__text">Tab 1</p>
+          </div>
+          <div class="features__last-item">
+            <p class="item__text">Tab 1</p>
+          </div>
+          <div class="features__next-item">
+            <p class="item__text">Tab 1</p>
+          </div>
+        </div>
+        <div class="feautures_info__text">
+          <p class="feautures_title">Tabs with soft transitioning effect.</p>
+          <p class="feautures_subtitle_taxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+            penatibus et magnis dis parturient montes.
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+            bibendum laoreet.</p>
+          <button class="button_feautures" type="Submit">Get started</button>
+        </div>
+        <div class="feautures_card">
+          <div class="img_sity">
+            <img src="/img/img_feautures.png" alt="sity" class="feautures_sity">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="awesome">
     <div class="container">
-      <h2 class="title">WHY THIS IS AWESOME</h2>
+      <h2 class="awesome__title">WHY THIS IS AWESOME</h2>
       <div class="line"></div>
-      <h4 class="awesome__text">Lorem ipsum dolor sit amet.</h4>
+      <p class="awesome__text">Lorem ipsum dolor sit amet.</p>
       <div class="section-awesome-card">
         <div class="awesome-card_item">
           <div class="circle">
@@ -43,11 +151,10 @@
         </div>
       </div>
   </section>
-  </div>
-  </div>
+
   <section class="pricing">
     <div class="container">
-      <div class="header">
+      <div class="title_pricing">
         <h2 class="pricing__title">pricing options</h2>
         <div class="line__red"></div>
         <h4 class="pricing__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
@@ -110,50 +217,54 @@
   </section>
   <section class="customers">
     <div class="container">
-      <div class="header">
-        <h2 class="customers__title">what our customers are saying</h2>
+      <div class="title_customers">
+        <h2 class="title">what our customers are saying</h2>
         <div class="line__red"></div>
-        <h4 class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+        <p class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
       <div class="card__item">
         <div class="card">
-          <h2 class="card__text">Lorem ipsum dolor sit amet,
+          <p class="card__text">Lorem ipsum dolor sit amet,
             consectetur adipisicing elit. Doloribus
             accusamus expedita repellat similique
             odio aspernatur ex, architecto eaque
-            quo suscipit.</h2>
+            quo suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat qui praesentium nisi
+            commodi nam consequatur suscipit excepturi, distinctio libero.</p>
           <div class="card_info__manager">
-            <img src="img/avatar_2_u231@1X 1.png" alt="manager photo" class="customers__photo">
+            <div class="img"><img src="img/avatar_2_u231@1X 1.png" alt="manager photo" class="customers__photo"></div>
             <div class="manager__text-info">
-              <h3 class="text_info__manager__name">Jeremy H.</h3>
+              <p class="text_info__manager__name">Jeremy H.</p>
               <p class="text_info__manager__position">Manager</p>
             </div>
           </div>
         </div>
         <div class="card">
-          <h2 class="card__text">Lorem ipsum dolor sit amet,
+          <p class="card__text">Lorem ipsum dolor sit amet,
             consectetur adipisicing elit. Doloribus
             accusamus expedita repellat similique
             odio aspernatur ex, architecto eaque
-            quo suscipit.</h2>
+            quo suscipit.</p>
+
           <div class="card_info__manager">
-            <img src="img/avatar_2_u231@1X 1.png" alt="manager photo" class="customers__photo">
+            <div class="img"><img src="img/avatar_2_u231@1X 1.png" alt="manager photo" class="customers__photo"></div>
             <div class="manager__text-info">
-              <h3 class="text_info__manager__name">Jeremy H.</h3>
+              <p class="text_info__manager__name">Jeremy H.</p>
               <p class="text_info__manager__position">Manager</p>
             </div>
           </div>
         </div>
         <div class="card">
-          <h2 class="card__text">Lorem ipsum dolor sit amet,
+          <p class="card__text">Lorem ipsum dolor sit amet,
             consectetur adipisicing elit. Doloribus
             accusamus expedita repellat similique
             odio aspernatur ex, architecto eaque
-            quo suscipit.</h2>
+            quo suscipit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, expedita numquam. Delectus, doloremque.
+          </p>
           <div class="card_info__manager">
-            <img src="img/avatar_2_u231@1X 1.png" alt="manager photo" class="customers__photo">
+            <div class="img"><img src="img/avatar_2_u231@1X 1.png" alt="manager photo" class="customers__photo"></div>
             <div class="manager__text-info">
-              <h3 class="text_info__manager__name">Jeremy H.</h3>
+              <p class="text_info__manager__name">Jeremy H.</p>
               <p class="text_info__manager__position">Manager</p>
             </div>
           </div>
@@ -163,7 +274,7 @@
   </section>
   <section class="axure">
     <div class="container">
-      <div class="header_axure">
+      <div class="title_axure">
         <h2 class="axure__title">STYLISH AXURE DESIGN</h2>
         <div class="line__white"></div>
         <h4 class="axure__text">Use the sections you need, remove the ones you don't. Create
@@ -174,7 +285,40 @@
     </div>
 
   </section>
-
-
+  <section class="contact_us">
+    <div class="container">
+      <h2 class="contact__title title">Contact us</h2>
+      <h3 class="contact__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+      <form action="#" method="POST" class="contact__form">
+        <div class="contact-form__container">
+          <div class="form__block">
+            <label for="contact-form-name" class="form__label">Name</label>
+            <input type="text" id="contact.form.name" class="form__input" />
+            <label for="contact-form-email" class="form__label">Email</label>
+            <input type="email" id="contact.form.email" class="form__input" />
+            <label for="contact-form-password" class="form__label">Password</label>
+            <input type="password" id="contact.form.password" class="form__input" />
+          </div>
+          <div class="form__block">
+            <label for="contact-form-message" class="form__label">Message</label>
+            <textarea id="contact-form-message" class="contact-form__input-board"></textarea>
+          </div>
+        </div>
+        <button class="contact__button" type="submit">Send message</button>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <ul class="footer-social">
+      <li class="footer__items"><a href="#" class="footer__icons fab fa-facebook-f"></a></li>
+      <li class="footer__items"><a href="#" class="footer__icons fab fa-twitter"></a></li>
+      <li class="footer__items"><a href="#" class="footer__icons fab fa-google-plus-g"></a></li>
+      <li class="footer__items"><a href="#" class="footer__icons fab fa-pinterest"></a></li>
+      <li class="footer__items"><a href="#" class="footer__icons fab fa-instagram"></a></li>
+      <li class="footer__items"><a href="#" class="footer__icons fab fa-stumbleupon"></a></li>
+      <li class="footer__items"><a href="#" class="footer__icons fas fa-rss"></a></li>
+    </ul>
+    <p class="footer__end">&copy; 2015 Axure Themes</p>
+  </footer>
 
 </body>
