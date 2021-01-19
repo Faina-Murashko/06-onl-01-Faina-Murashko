@@ -14,18 +14,27 @@ text-align: center;
 text-transform: uppercase;
 padding-top: 80px;
 color: #212121;
+}
 
+.pricing__title::after{
+  content: '';
+  display: block;
 
+  height: 2px;
+  width: 64px;
+  margin: 34px auto;
+  background-color:#ff0000;;
 }
 .pricing__text {
-  width: 363px;
+  
   margin: 0px auto 62px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   color: #86878B;
+  text-align: center;
 }
 
 .pricing__card {
@@ -107,11 +116,4 @@ li {
   color: rgba(255, 255, 255, 0.5);
   margin-bottom: 4px;
   
-}
-
-.line__red {
-  margin: 25px auto 30px;
-  border-bottom: 2px solid #E72424;
-  width: 64px;
-
 }
