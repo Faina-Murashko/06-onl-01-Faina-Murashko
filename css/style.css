@@ -2,15 +2,24 @@
 @import url('/css/pricing.css');
 @import url('/css/customers.css');
 @import url('/css/axure.css');
+@import url('/css/navigation.css');
+@import url('/css/footer.css');
+@import url('/css/header.css');
+@import url('/css/social.css');
+@import url('/css/feautures.css');
+@import url('/css/contact.css');
 
-@font-face{
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
+
+@font-face {
   font-family: 'Raleway';
-  src: url('/fonts/raleway/Raleway-Regular.ttf')
-}
+  src: url('/fonts/raleway/Raleway-Regular.ttf');
+} 
 
 @font-face {
   font-family: 'OpenSans';
   src: url('/fonts/open_sans/regular.ttf')
+  
 }
 html {
   font-size: 16px;
@@ -27,12 +36,20 @@ html {
   max-width: 1170px;
   margin: 0px auto;
   padding:  0 15px;
-  text-align: center;
+  position: relative;
+  z-index: 1;
+  
   
 }
 
-.line__red {
-  margin: 25px auto 30px;
-  border-bottom: 2px solid #E72424;
-  width: 64px;
+
+.title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #212121;
 }
