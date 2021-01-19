@@ -1,24 +1,23 @@
 
-.customers__title {
-  position: static;
-left: 366px;
-top: 0px;
-
-font-family: Raleway;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-text-transform: uppercase;
+.title {
 margin-top: 80px;
-color: #212121;
+
 
 }
+
+.title::after{
+  content: '';
+  display: block;
+
+  height: 2px;
+  width: 64px;
+  margin: 34px auto;
+  background-color:#ff0000;;
+}
 .customers__text {
-  width: 363px;
+  text-align: center;
   margin: 0px auto 62px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -49,21 +48,22 @@ color: #212121;
   color: #86878b;
   background: #e2e2e2;
   border-radius: 7px;
-
+position: relative;
   padding: 10px;
 }
 
 .card__text::after {
   content: '';
   display: block;
-
   width: 17px;
   height: 17px;
   background: #e2e2e2;
   transform: rotate(-45deg);
-  margin-left: 39px;
+  left: 39px;
+  
   position: absolute;
 }
+
 
 .card_info__manager {
   display: flex;
