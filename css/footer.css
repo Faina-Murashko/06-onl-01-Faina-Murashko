@@ -1,0 +1,34 @@
+.footer {
+  padding: 15px 0;
+  background: #000000;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto 18px auto;
+  font-size: 23px;
+}
+
+.footer__end {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__items {
+  margin: 0 13px 0 13px;
+}
+
+.footer__icons{
+ 
+  background-color: #000000;
+border: none;
+  
+
+}
