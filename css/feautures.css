@@ -1,0 +1,149 @@
+
+.container_feautures{
+  display: flex;
+  
+  align-items: flex-start;
+  flex-wrap: wrap;
+ 
+  
+}
+
+.information{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 125px;
+  margin-left: 45px;
+}
+
+.features__first-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 112px;
+  height: 110px;
+
+  background: #333333;
+  border-radius: 4px;
+  transition: all 0.5s;
+  margin-bottom: 10px;
+transition: all 0.5s;
+}
+
+.features__first-item:hover{
+  cursor: pointer;
+  background-color: #333333;
+}
+.features__last-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 112px;
+  height: 110px;
+
+  background: #333333;
+  border-radius: 4px;
+  transition: all 0.5s;
+  margin-bottom: 10px;
+
+}
+.features__last-item:hover{
+  cursor: pointer;
+  background-color:#ec7979;
+}
+.features__next-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 112px;
+  height: 110px;
+transition: all 0.5s;
+  background: #333333;
+  border-radius: 4px;
+
+  margin-bottom: 10px;
+}
+.features__next-item:hover{
+  cursor: pointer;
+  background-color:#ec7979;
+}
+
+.tabs-text{
+  background: #ec7979;
+}
+
+.item__text{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+
+  color: #fff;
+}
+
+.features__tabs{
+margin-right: 100px;
+}
+
+
+.feautures_title {
+  font-family: 'OpenSans';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 58px;
+color: #000000;
+
+}
+.feautures_subtitle_taxt {
+  font-family: 'OpenSans';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+flex-wrap: wrap;
+color: #86878B;
+width: 572px;
+text-align:justify;
+}
+
+
+.feautures_card{
+  margin-left: 50px;
+  width: 320px;
+height: 253px;
+}
+
+.button_feautures{
+  width: 135px;
+  padding: 16px 0 17px 0;
+  background-color: #ec7979;
+  font-family: 'OpenSans';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+border: none;
+align-items: center;
+text-align: center;
+border-radius: 2px;
+color: #FFFFFF;  
+margin-top: 89px;
+transition: all 0.5s;
+}
+.button_feautures:hover{
+  cursor: pointer;
+  background-color: #333333;
+}
