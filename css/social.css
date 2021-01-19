@@ -44,13 +44,17 @@
 
   width: 684px;
 }
-.itemss {
+.social__items {
   display: inline-block;
   justify-content: space-around;
   font-size: 36px;
   padding: 0 15px;
   margin: 0px 10px;
   background: #f8efef; 
+}
+.footer-social{
+  display: flex;
+  justify-content: center;
 }
 
 .fab {
